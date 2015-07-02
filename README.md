@@ -1,5 +1,5 @@
 # analytics
-IIT Data Analytics Developed on the basis of OpenEdx Data Analytics Package. 
+#IIT Data Analytics Developed on the basis of OpenEdx Data Analytics Package. 
 
 The edx data analytics package is made of following four parts & a Result Store in MySQL database called analytics
 
