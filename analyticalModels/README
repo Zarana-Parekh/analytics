@@ -11,5 +11,20 @@ iii)Installation and setup of Hadoop, Hive and Spark - and errors and their hand
 
 
 6VideoDifficultyModel-final-working-multiple-videos.py
+  ---- The final prototype of the data model. It would work on the top 10 videos watched in the CS101.1x course,
+       and for the top 50 users who have watched it.
+       
+       DataBase: IITBxDataAnalytics
+       Tables:   CourseVideos, UserSessionOldLog
+       
+       Video id's are hard coded, some test user names are there.
+       Output appears on console.
+  
 updateYoutubeVideoLength.py
+  ---- The Python code which draws the youtube id's from the CourseVideos tables, and uses the Google YouTube API
+       to get the durations of each of the videos, and store it in the CourseVideos table.
+  
 videoDifficultySpark.py
+  ---- The actual implementation of the data model in Spark. For a detailed explanation of this and the previous
+       prototype, please go through the Final report documentation. It should bring you up to what has been done
+       so far, as the document covers everything from scratch.
